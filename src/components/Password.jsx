@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import "./password.css"
-import usePassword from '../customHook/usePassword';
+import usePassword from '../cutom_hooks/usePassword';
 
 const Password = () => {
     const [length , setLength] = useState(4);
